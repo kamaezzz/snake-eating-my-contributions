@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <style>
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+      fill: black;
+    }
+
+    .char0 { animation: fadeIn 0.5s forwards 0.0s; opacity: 0; }
+    .char1 { animation: fadeIn 0.5s forwards 0.2s; opacity: 0; }
+    .char2 { animation: fadeIn 0.5s forwards 0.4s; opacity: 0; }
+    .char3 { animation: fadeIn 0.5s forwards 0.6s; opacity: 0; }
+  </style>
+
+  <text x="10" y="35">
+    <tspan class="char0">H</tspan>
+    <tspan class="char1">i</tspan>
+    <tspan class="char2">!</tspan>
+    <tspan class="char3"> 👋</tspan>
+  </text>
+</svg>
